@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Positivo_Negativo"/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 04:09:07 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjAyOzIwMjYtMDMtMTc7IjAyOjI1OjMzICI7MjM1MQ=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjAyOzIwMjYtMDMtMTc7IjA0OjA5OjA3ICI7MjsyNDY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Valor" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o valor?&quot;" newline="True"/>
+            <input variable="Valor"/>
+            <if expression="Valor =0">
+                <then>
+                    <output expression="&quot;Continua 0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Valor&gt;=0">
+                        <then>
+                            <output expression="&quot;Positivo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Negativo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

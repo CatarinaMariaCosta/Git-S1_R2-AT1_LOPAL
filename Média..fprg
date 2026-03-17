@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M&#233;dia."/>
+        <attribute name="authors" value="I1D35"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 04:04:19 "/>
+        <attribute name="created" value="STFEMzU7RUNGUDUwN0QxMjYzNjAyOzIwMjYtMDMtMTc7IjAzOjEyOjMyICI7MjM0Nw=="/>
+        <attribute name="edited" value="STFEMzU7RUNGUDUwN0QxMjYzNjAyOzIwMjYtMDMtMTc7IjA0OjA0OjE5ICI7MTsyNDYy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual foi sua primeira nota?&quot;" newline="True"/>
+            <input variable="Nota"/>
+            <assign variable="Nota" expression="7"/>
+            <declare name="Nota2" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual foi sua segunda nota?&quot;" newline="True"/>
+            <input variable="Nota2"/>
+            <assign variable="Nota2" expression="4"/>
+            <declare name="Soma" type="Real" array="False" size=""/>
+            <assign variable="Soma" expression="Nota+Nota2"/>
+            <declare name="Divide" type="Real" array="False" size=""/>
+            <assign variable="Divide" expression="Soma/2"/>
+            <output expression="&quot;Sua media &#233; &quot; &amp; Divide" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
