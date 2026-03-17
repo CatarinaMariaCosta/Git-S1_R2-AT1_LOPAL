@@ -1,1 +1,1 @@
-# Git-S1_R2-AT1_LOPAL
+# Exercicios S1_R2-AT1_LOPAL
